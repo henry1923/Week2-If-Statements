@@ -10,7 +10,7 @@ namespace PersonalityTest
             //kui kasutaja sisestab "punane", konsool kuvab "oled romantiline"
 
             Console.WriteLine("Mis on sinu lemmikvärv?");
-            string Usercolor = Console.ReadLine();
+            string Usercolor = Console.ReadLine().ToLower(); 
 
             if (Usercolor == "punane")
             {
